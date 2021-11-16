@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ma plus jolie intégration</title>
+    <title>Chasseurs</title>
     <style>
         h1{
             color: pink;
@@ -17,12 +17,33 @@
             display: flex;
             justify-content: space-around;
         }
+
+        .gallery{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .gallery li{
+            list-style: none;
+            margin: 2em;
+        }
+
+        .gallery li img{
+            width: 20vw;
+            height: 200px;
+            object-fit: cover;
+        }
     </style>
 </head>
 <body>
-    <h1>Méduse immortelle</h1>
+    <h1>Trop bien la mort</h1>
     <div class="content">
-        <img src="https://cdn.futura-sciences.com/buildsv6/images/wide1920/a/8/9/a893258663_108118_turritopsis-nutricula-flickr-nc-sa20-1820.jpg" alt="canari">
+        <ul class="gallery">
+            <li><img src="https://images.lanouvellerepublique.fr/image/upload/t_1020w/f_auto/58c2ce20489a457c7b8b46fb.jpg" alt="un alt"></li>
+            <li><img src="https://prmeng.rosselcdn.net/sites/default/files/dpistyles_v2/ena_16_9_extra_big/2021/11/10/node_249050/38750540/public/2021/11/10/B9728948733Z.1_20211110135946_000%2BGKOJAD39R.1-0.jpg?itok=MQdYi5zK1636550990" alt=""></li>
+            <li><img src="https://i.ytimg.com/vi/1guHNl_a85U/maxresdefault.jpg" alt=""></li>
+        </ul>
     </div>
 </body>
 </html>
